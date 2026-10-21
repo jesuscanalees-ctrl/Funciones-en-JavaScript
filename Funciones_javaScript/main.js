@@ -68,18 +68,14 @@ const personas = [
 ];
 
 const mayoresPersonas = personas.filter(p => p.edad > 18);
-console.log(mayoresPersonas);
-
 const hayDeMadrid = personas.some(p => p.ciudad === 'Madrid');
-console.log(hayDeMadrid);
-
 const todosMayoress = personas.every(p => p.edad >= 18);
-console.log(todosMayoress);
-
 const personaDeMexico = personas.find(p => p.ciudad === 'Mexico');
-console.log(personaDeMexico);
-
 const posicionAna = personas.findIndex(p => p.nombre === 'Ana');
+console.log(mayoresPersonas);
+console.log(hayDeMadrid);
+console.log(todosMayoress);
+console.log(personaDeMexico);
 console.log(posicionAna);
 
 
